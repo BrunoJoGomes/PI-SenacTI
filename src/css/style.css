@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 body{
     margin: 0px;
 }
@@ -28,5 +30,42 @@ body{
     background-position-x: 20px;
     background-position-y: 50%;
     background-repeat: no-repeat;
+    box-shadow: inset 0 0 12px grey;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.instrucoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(/src/images/lua2.jpg);
+    background-size: cover;
+
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightpink; */
+    width: 300px;
+    height: 90px;
 }
 
